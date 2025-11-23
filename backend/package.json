@@ -1,0 +1,22 @@
+{
+  "name": "tiny-url",
+  "version": "1.0.0",
+  "description": "Tiny URL Shortener Backend",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --watch src/server.js",
+    "start": "node --env-file=.env src/server.js"
+  },
+  "author": "Md Tauqeer Iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "ws": "^8.18.0",
+    "xss-clean": "^0.1.4"
+  }
+}
