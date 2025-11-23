@@ -1,8 +1,25 @@
-text
-
 # 🔗 TinyLink - URL Shortener
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=netlify)](https://eclectic-duckanoo-f33089.netlify.app/)
+[![Backend API](https://img.shields.io/badge/Backend-API-blue?style=for-the-badge&logo=render)](https://tinylink-fa5s.onrender.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Tauqeer0657/tinylink)
+
 A modern, full-stack URL shortener application built with Node.js, Express, React, and PostgreSQL. Create short, shareable links and track their analytics.
+
+---
+
+## 🌐 Live Links
+
+| Service | URL | Status |
+|---------|-----|--------|
+| 🌍 **Frontend** | [https://eclectic-duckanoo-f33089.netlify.app](https://eclectic-duckanoo-f33089.netlify.app/) | ✅ Live |
+| ⚙️ **Backend API** | [https://tinylink-fa5s.onrender.com](https://tinylink-fa5s.onrender.com) | ✅ Live |
+| 🏥 **Health Check** | [https://tinylink-fa5s.onrender.com/healthz](https://tinylink-fa5s.onrender.com/healthz) | ✅ Live |
+| 💻 **Source Code** | [https://github.com/Tauqeer0657/tinylink](https://github.com/Tauqeer0657/tinylink) | 📂 Public |
+
+> **Note:** Backend may take 30-60 seconds to wake up on first request (Render free tier).
+
+---
 
 ## 📋 Table of Contents
 
@@ -100,7 +117,7 @@ text
 
 ### 1. Clone the Repository
 
-git clone `<your-repo-url>`
+git clone https://github.com/Tauqeer0657/tinylink.git
 cd tinylink
 
 ### 2. Backend Setup
@@ -260,7 +277,7 @@ Location: https://example.com
 
 - **Helmet.js** - Sets security HTTP headers
 - **XSS-Clean** - Sanitizes user input
-- **Rate Limiting** - Prevents abuse (100 requests per 15 minutes)
+- **Rate Limiting** - Prevents abuse (20 requests per 1 minutes)
 - **CORS** - Configured for specific origins
 - **Input Validation** - Server-side validation for all inputs
 
